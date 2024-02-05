@@ -225,4 +225,4 @@ def linkcode_resolve(domain, info):
 
     fn = os.path.relpath(fn, start=os.path.dirname("../skimage3d"))
 
-    return f"https://github.com/dennisbrookner/skimage3d/blob/main/skimage3d/{fn}{linespec}"  # noqa
+    return f"https://github.com/dennisbrookner/skimage3d/blob/main/skimage3d/{fn}{linespec}"
